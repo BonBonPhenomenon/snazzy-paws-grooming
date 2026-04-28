@@ -306,7 +306,8 @@ label {
 }
 
 /* Main buttons */
-button {
+button,
+.button-link {
   background-color: #2fa87a;
   color: #ffffff;
 
@@ -318,8 +319,14 @@ button {
   transition: all 0.2s ease;
 }
 
-button:hover {
+button:hover,
+.button-link:hover {
   background-color: #e4126a;
+}
+
+.button-link {
+  display: inline-block;
+  text-decoration: none;
 }
 
 /* Footer */
