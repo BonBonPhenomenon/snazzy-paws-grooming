@@ -1,0 +1,95 @@
+<!-- Bonnie Vujcich
+Student ID: 5141620
+Assignment 2 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snazzy Paws Grooming | Dog Grooming Hamilton</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/Snazzy-Paws-Grooming-Logo.png"
+        class="logo"
+        alt="Snazzy Paws Grooming Logo"
+      />
+      <h1>SNAZZY PAWS GROOMING</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <span class="visually-hidden">Snazzy Paws Grooming</span>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="gallery.html">GALLERY</a></li>
+        <li><a href="booking.html" class="active">BOOKING</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section>
+        <h2>Make a Booking</h2>
+        <p>
+          Please fill out the form below to make an appointment for your dog.
+        </p>
+        <form class="booking-form">
+          <label for="owner">Owner's Name: </label>
+          <input
+            type="text"
+            id="owner"
+            name="owner"
+            placeholder="Enter your name here..."
+            required
+          />
+
+          <label for="email">Email adress: </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email address..."
+            required
+          />
+
+          <label for="dog">Dog's Name: </label>
+          <input
+            type="text"
+            id="dog"
+            name="dog"
+            placeholder="Enter your dog's name..."
+            required
+          />
+
+          <label for="breed">Breed: </label>
+          <input
+            type="text"
+            id="breed"
+            name="breed"
+            placeholder="Enter your dog's breed..."
+            required
+          />
+
+          <label for="age">Age: </label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Enter your dog's age..."
+          />
+
+          <button type="submit">SUBMIT BOOKING</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Snazzy Paws Grooming | Opening Hours: Mon - Sat 9am-5pm</p>
+    </footer>
+  </body>
+</html>
