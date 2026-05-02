@@ -139,19 +139,38 @@ section ul li {
 
 /* Tables */
 table {
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
-
   width: 100%;
   margin-top: 20px;
   font-size: 16px;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+tbody td:nth-child(1) {
+  width: 25%;
+}
+
+tbody td:nth-child(2) {
+  width: 50%;
+}
+
+tbody td:nth-child(3) {
+  width: 15%;
+  white-space: nowrap;
+  text-align: right;
+}
+
+tbody td:nth-child(4) {
+  width: 15%;
+  text-align: right;
 }
 
 th,
 td {
   padding: 14px 12px;
   text-align: left;
+  vertical-align: top;
+  word-wrap: break-word;
 }
 
 thead th {
@@ -171,6 +190,7 @@ table th[colspan] {
   padding-top: 25px;
   padding-bottom: 10px;
   background-color: #ffffff;
+  text-align: left;
 }
 
 /* Headings */
