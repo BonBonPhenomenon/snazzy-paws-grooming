@@ -411,37 +411,9 @@ header h1 {
     padding: 15px 20px;
   }
 
-  table {
-    display: block;
-    overflow-x: auto;
-    white-space: normal;
-  }
-
   th,
   td {
-    padding: 12px 10px;
-  }
-
-  .service {
-    min-width: 120px;
-  }
-
-  .description {
-    min-width: 180px;
-    max-width: 220px;
-  }
-
-  .price {
-    min-width: 90px;
-    text-align: left;
-  }
-
-  .action {
-    min-width: 120px;
-    text-align: left;
-  }
-
-  .button-link {
-    padding: 10px 20px;
+    font-size: 14px;
+    padding: 10px;
   }
 }
